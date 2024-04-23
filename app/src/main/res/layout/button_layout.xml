@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="3dp"
+    android:rowCount="7"
+    android:columnCount="5">
+
+        <!-- Fila 1 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_clear"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="C"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_delete"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="DEL"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton2"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Pi"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="π"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Euler"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="e"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Raiz"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:text="√"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton"/>
+
+        <!--Segunda fila-->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_X2"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="x²"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_7"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="7"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_8"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="8"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_9"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:text="9"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Division"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:text="/"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton2"/>
+
+        <!--Tercera Fila-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Logaritmo"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="Log"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_4"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="4"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_5"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:text="5"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_6"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:text="6"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Multiplicacion"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:text="X"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton2"/>
+
+        <!--Cuarta Fila-->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Porcentaje"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="%"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_1"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="1"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_2"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:text="2"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_3"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:text="3"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Suma"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:text="+"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton2"/>
+
+        <!--Quinta fila-->
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Factorial"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="n!"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Corchete"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:text="( )"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_0"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:text="0"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Coma"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:text=","
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Resta"
+            android:layout_row="4"
+            android:layout_column="4"
+            android:text="—"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton2"/>
+
+
+        <!--Sexta fila-->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Seno"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="Sen"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Coseno"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:text="Cos"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton2"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Tangente"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:text="Tan"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Igual"
+            android:layout_row="5"
+            android:layout_column="3"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="2"
+            android:text="="
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_botton4"/>
+
+
+
+</GridLayout>
+
